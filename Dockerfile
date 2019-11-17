@@ -19,6 +19,6 @@ ENV TZ=Europe/Budapest \
 
 WORKDIR     /home/container
 
-COPY        ./entrypoint.sh /entrypoint.sh
+COPY        ./csgotelepit.sh /csgotelepit.sh
 
-CMD         ["/bin/bash", "/entrypoint.sh"]
+CMD         ["/bin/bash", "/csgotelepit.sh"]
